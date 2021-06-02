@@ -56,6 +56,23 @@
       height: 125px;
     }
   </style>
+  <style>
+    ul.navs {
+      margin: 0 auto;
+      margin-top: 50px;
+      border: 1px solid grey;
+      padding: 20px;
+      display: block;
+      width: 500px;
+    }
+    ul.navs li {
+      display: inline;
+      margin-right: 20px;
+    }
+    ul.navs li a {
+      color: grey;
+    }
+  </style>
 </head>
 
 <body>
@@ -73,17 +90,17 @@
   <!--Switcher-->
 
   <!--Main menu-->
-  <div class="menu">
+  <!-- <div class="menu">
     <div class="container">
       <div class="row">
         <div class="menu__wrapper d-none d-lg-block col-md-12">
           <nav class="">
             <ul>
               <li><a href="#hello">Hello</a></li>
-              <!-- <li><a href="#resume">Resume</a></li>
+              <li><a href="#resume">Resume</a></li>
               <li><a href="#portfolio">Portfolio</a></li>
               <li><a href="#testimonials">testimonials</a></li>
-              <li><a href="#blog">blog</a></li> -->
+              <li><a href="#blog">blog</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </nav>
@@ -95,11 +112,11 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!--Main menu-->
 
   <!-- Mobile menu -->
-  <div class="mobile-menu d-lg-none">
+  <!-- <div class="mobile-menu d-lg-none">
     <div class="container">
       <div class="mobile-menu__close">
         <span><i class="mdi mdi-close" aria-hidden="true"></i></span>
@@ -108,18 +125,14 @@
         <ul>
           <li><a href="#hello">Hello</a></li>
           <li><a href="#resume">Resume</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#testimonials">testimonials</a></li>
-          <li><a href="#blog">blog</a></li>
-          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
-  </div>
+  </div> -->
   <!-- Mobile menu -->
 
   <!--Header-->
-  <header class="main-header" style="background-image: url(assets/img/img_bg_header.jpg)">
+  <!-- <header class="main-header" style="background-image: url(assets/img/img_bg_header.jpg)">
     <div class="container">
       <div class="row personal-profile">
         <div class="col-md-4 personal-profile__avatar">
@@ -149,15 +162,30 @@
         </div>
       </div>
     </div>
-  </header>
+  </header> -->
   <!--Header-->
 
   <!--Hello-->
-  <section id="hello" class="container section">
 
-    <!-- Ads -->
-    <div style="float:right">
-      <h1>Five Images Slider</h1>
+
+  <!-- Ads -->
+  <div style="margin: 0 auto;">
+    <ul class="navs" style="list-style-type: none;">
+      <li><a href="index.html">Slide-1</a></li>
+      <li><a href="slide2.html">Slide-2</a></li>
+      <li><a href="slide3.html">Slide-3</a></li>
+      <li><a href="https://www.adfinix.com/">Adfinix</a></li>
+    </ul>
+  </div>
+
+  <div style="display: flex; justify-content: space-around; align-items: center; width: 60%; margin:0 auto; margin-top: 100px;">
+    <div style="flex-grow: 2;">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi earum iure ut distinctio molestiae esse a
+      voluptatem laudantium laborum mollitia vel atque, dolore assumenda vero cum debitis. Repellendus, aliquid
+      doloribus.
+    </div>
+    <div style="flex-grow: 1;">
+      <h3>Five Images Slider</h3>
       <div id="splide" class="splide splide_single">
         <div class="splide__track">
           <ul class="splide__list">
@@ -170,522 +198,58 @@
         </div>
       </div>
     </div>
+  </div>
 
-    
 
-    <h1>Images & Video Slider</h1>
-    <div id="splide2" class="splide splide_single">
-      <div class="splide__track">
-        <ul class="splide__list">
-          <li class="splide__slide"><img src="./assets/All Time Butter Bun.jpeg" /></li>
-          <li class="splide__slide" data-splide-html-video="./assets/All Time Milk Bread (2).mp4"></li>
-          <li class="splide__slide"><img src="./assets/All Time Butter Bun (2).jpeg" /></li>
-          <li class="splide__slide" data-splide-html-video="assets/All Time White Bread.mp4"></li>
-          <li class="splide__slide"><img src="./assets/All Time Butter Bun (3).jpeg" /></li>
-        </ul>
-      </div>
+
+  <!-- <h1>Images & Video Slider</h1>
+  <div id="splide2" class="splide splide_single">
+    <div class="splide__track">
+      <ul class="splide__list">
+        <li class="splide__slide"><img src="./assets/All Time Butter Bun.jpeg" /></li>
+        <li class="splide__slide" data-splide-html-video="./assets/All Time Milk Bread (2).mp4"></li>
+        <li class="splide__slide"><img src="./assets/All Time Butter Bun (2).jpeg" /></li>
+        <li class="splide__slide" data-splide-html-video="assets/All Time White Bread.mp4"></li>
+        <li class="splide__slide"><img src="./assets/All Time Butter Bun (3).jpeg" /></li>
+      </ul>
     </div>
+  </div>
 
-    
 
-    <div style="margin:0 auto; max-width: 310px; width: 100%">
-      <center>
-        <h1>Double slider</h1>
-      </center>
 
-      <div class="double">
-        <div id="splide4" class="splide">
-          <div class="splide__track">
-            <ul class="splide__list">
-              <li class="splide__slide"><img src="./assets/Tasty Treat Cherry Layer Pastry.jpeg" /></li>
-              <li class="splide__slide"><img src="./assets/Tasty Treat Chocolate Cake.jpeg" /></li>
-            </ul>
-          </div>
-        </div>
+  <div style="margin:0 auto; max-width: 310px; width: 100%">
+    <center>
+      <h1>Double slider</h1>
+    </center>
 
-        <div id="splide5" class="splide">
-          <div class="splide__track">
-            <ul class="splide__list">
-              <li class="splide__slide"><img src="./assets/Tasty Treat BBQ Pizza.jpg" /></li>
-              <li class="splide__slide"><img src="./assets/Tasty Treat Jar Cake.jpeg" /></li>
-              <li class="splide__slide"><img src="./assets/Tasty Treat Mexican Sub Sandwich.jpeg" /></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <br><br>
-
-    <div class="row">
-      <div class="col-md-10">
-        <h2 id="hello_header" class="section__title">Hi_</h2>
-        <p class="section__description">
-          I am a Software Quality Assurance Engineer, Information Security Specialist and a Web Application Developer.
-          Finding bugs is my passion and creating something new is my interest. I do both automatic and manual
-          testing.
-          When automatic tools fail, I create my own scripts which are more satisfiable to me.
-          <br><br>
-          I have 3 years of experience in working as Software Quality Assurance and 7+ years in the Information
-          Security
-          sector. My strong interest in Information Security and extensive experience in Penetration Testing brought
-          me
-          a lot of appreciation from many well renowned technology giant companies.
-          <br><br>
-          I always love to experiment and learn new technologies and of course I like coding in Python with popcorn
-          and
-          music.
-        </p>
-        <a href="#" class="section_btn site-btn"><img src="assets/img/img_btn_icon.png" alt="">Download CV</a>
-      </div>
-  </section>
-  <!--Hello-->
-
-  <hr>
-
-  <!--Resume-->
-  <section id="resume" class="container section">
-    <div class="row">
-      <div class="col-md-8 section__resume resume-list">
-        <h3 class="resume-list_title">education</h3>
-        <div class="resume-list__block">
-          <p class="resume-list__block-title">bangladesh university of business and technology </p>
-          <p class="resume-list__block-date">2015 - Studying</p>
-          <p>
-            B.Sc in Computer Science and Engineering
-          </p>
-        </div>
-        <!-- <div class="resume-list__block">
-          <p class="resume-list__block-title">college title</p>
-          <p class="resume-list__block-date">year - year</p>
-          <p>
-            college content
-          </p>
-        </div>
-        <div class="resume-list__block">
-          <p class="resume-list__block-title">school title</p>
-          <p class="resume-list__block-date">year - year</p>
-          <p>
-            school content
-          </p>
-        </div> -->
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-8 section__resume resume-list">
-        <h3 class="resume-list_title">employment</h3>
-        <div class="resume-list__block">
-          <p class="resume-list__block-title">Adfinix</p>
-          <p class="resume-list__block-date">November 15, 2020 - Present</p>
-          <p>
-            Software Quality Assurance and Security Engineer
-          </p>
-        </div>
-        <div class="resume-list__block">
-          <p class="resume-list__block-title">Jobike</p>
-          <p class="resume-list__block-date">May 15, 2018 - November 12, 2020</p>
-          <p>
-            Security Engineer and QA
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="row section__resume progress-list js-progress-list">
-      <div class="col-md-12">
-        <h3 class="progress-list__title">general skills</h3>
-      </div>
-      <div class="col-md-5 mr-auto">
-        <div class="progress-list__skill">
-          <p>
-            <span class="progress-list__skill-title">Python3</span>
-            <span class="progress-list__skill-value">90%</span>
-          </p>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-            </div>
-          </div>
-        </div>
-        <div class="progress-list__skill">
-          <p>
-            <span class="progress-list__skill-title">Django</span>
-            <span class="progress-list__skill-value">80%</span>
-          </p>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-            </div>
-          </div>
-        </div>
-        <div class="progress-list__skill">
-          <p>
-            <span class="progress-list__skill-title">PHP</span>
-            <span class="progress-list__skill-value">60%</span>
-          </p>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-            </div>
-          </div>
-        </div>
-        <div class="progress-list__skill">
-          <p>
-            <span class="progress-list__skill-title">HTML & CSS</span>
-            <span class="progress-list__skill-value">75%</span>
-          </p>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-5 mr-auto">
-        <div class="progress-list__skill">
-          <p>
-            <span class="progress-list__skill-title">Penetration Testing</span>
-            <span class="progress-list__skill-value">95%</span>
-          </p>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-            </div>
-          </div>
-        </div>
-        <div class="progress-list__skill">
-          <p>
-            <span class="progress-list__skill-title">Vulnerability Assessment</span>
-            <span class="progress-list__skill-value">90%</span>
-          </p>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-            </div>
-          </div>
-        </div>
-        <div class="progress-list__skill">
-          <p>
-            <span class="progress-list__skill-title">Testing Automation</span>
-            <span class="progress-list__skill-value">90%</span>
-          </p>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-            </div>
-          </div>
-        </div>
-        <div class="progress-list__skill">
-          <p>
-            <span class="progress-list__skill-title">Crazy</span>
-            <span class="progress-list__skill-value">100%</span>
-          </p>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--Resume-->
-
-  <!--Portfolio-->
-  <!-- <section id="portfolio" class="container section">
-    <div class="row">
-      <div class="col-md-12">
-        <h2 id="portfolio_header" class="section__title">My projects_</h2>
-      </div>
-    </div>
-    <div class="row portfolio-menu">
-      <div class="col-md-12">
-        <nav>
-          <ul>
-            <li><a href="#" data-portfolio-target-tag="all">all</a></li>
-            <li><a href="#" data-portfolio-target-tag="mobile apps">mobile apps</a></li>
-            <li><a href="#" data-portfolio-target-tag="web-sites">web-sites</a></li>
-            <li><a href="#" data-portfolio-target-tag="landing-pages">landing pages</a></li>
+    <div class="double">
+      <div id="splide4" class="splide">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide"><img src="./assets/Tasty Treat Cherry Layer Pastry.jpeg" /></li>
+            <li class="splide__slide"><img src="./assets/Tasty Treat Chocolate Cake.jpeg" /></li>
           </ul>
-        </nav>
-      </div>
-    </div>
-    <div class="portfolio-cards">
-      <div class="row project-card" data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="web-sites">
-        <div class="col-md-6 col-lg-5 project-card__img">
-          <img class="" src="#" alt="project-img">
-        </div>
-        <div class="col-md-6 col-lg-7 project-card__info">
-          <h3 class="project-card__title">title  </h3>
-          <p class="project-card__description">
-            content
-          </p>
-          <p class="project-card__stack">Used stack:</p>
-          <ul class="tags">
-            <li>html5</li>
-            <li>css3</li>
-            <li>JavaScript</li>
-            <li>bower</li>
-            <li>grunt</li>
-          </ul>
-          <a href="#" class="project-card__link">link</a>
         </div>
       </div>
-      <div class="row project-card"  data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="mobile apps">
-        <div class="col-md-6 col-lg-5 project-card__img">
-          <img class="" src="#" alt="project-img">
-        </div>
-        <div class="col-md-6 col-lg-7 project-card__info">
-          <h3 class="project-card__title">title</h3>
-          <p class="project-card__description">
-            content
-          </p>
-          <p class="project-card__stack">Used stack:</p>
-          <ul class="tags">
-            <li>html5</li>
-            <li>css3</li>
-            <li>JavaScript</li>
-            <li>BEM</li>
-            <li>bower</li>
-            <li>grunt</li>
-          </ul>
-          <a href="#" class="project-card__link">link</a>
-        </div>
-      </div>
-      <div class="row project-card"  data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="landing-pages">
-        <div class="col-md-6 col-lg-5 project-card__img">
-        <img class="" src="#" alt="project-img">
-      </div>
-        <div class="col-md-6 col-lg-7 project-card__info">
-        <h3 class="project-card__title">title</h3>
-        <p class="project-card__description">
-          content
-        </p>
-        <p class="project-card__stack">Used stack:</p>
-        <ul class="tags">
-          <li>html5</li>
-          <li>css3</li>
-          <li>JavaScript</li>
-          <li>BEM</li>
-          <li>bower</li>
-          <li>grunt</li>
-        </ul>
-        <a href="#" class="project-card__link">link</a>
-      </div>
-      </div>
-    </div>
-  </section> -->
-  <!--Portfolio-->
 
-  <!--Testimonials-->
-  <!-- <div id="testimonials" class="section">
-    <div class="background slider-carousel" style="background-image: url(assets/img/img_bg_main.jpg);">
-      <div class="container">
-        <div id="carouselTestimonials" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselTestimonials" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselTestimonials" data-slide-to="1"></li>
-            <li data-target="#carouselTestimonials" data-slide-to="2"></li>
-            <li data-target="#carouselTestimonials" data-slide-to="3"></li>
-          </ol>
-          <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-              <div class="row">
-                <div class="col-md-10 col-sm-10 col-10 mr-auto ml-auto">
-                  <p class="slider-carousel__title">name</p>
-                  <p class="slider-carousel__caption">Project: Landin page for travel company</p>
-                  <hr>
-                  <p class="slider-carousel__description">content </p>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col-md-10 col-sm-10 col-10 mr-auto ml-auto">
-                  <p class="slider-carousel__title">name</p>
-                  <p class="slider-carousel__caption"> content </p>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col-md-10 col-sm-10 col-10 mr-auto ml-auto">
-                  <p class="slider-carousel__title">name</p>
-                  <p class="slider-carousel__caption">Project: Landin page for travel company</p>
-                  <hr>
-                  <p class="slider-carousel__description">content </p>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col-md-10 col-sm-10 col-10 mr-auto ml-auto">
-                  <p class="slider-carousel__title">name</p>
-                  <p class="slider-carousel__caption">Project: Landin page for travel company</p>
-                  <hr>
-                  <p class="slider-carousel__description">content </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#testimonials" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#testimonials" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-          <div class="slider-carousel__circle">
-            <p><i class="fa fa-quote-right" aria-hidden="true"></i></p>
-          </div>
+      <div id="splide5" class="splide">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide"><img src="./assets/Tasty Treat BBQ Pizza.jpg" /></li>
+            <li class="splide__slide"><img src="./assets/Tasty Treat Jar Cake.jpeg" /></li>
+            <li class="splide__slide"><img src="./assets/Tasty Treat Mexican Sub Sandwich.jpeg" /></li>
+          </ul>
         </div>
       </div>
     </div>
   </div> -->
-  <!--Testimonials-->
 
-  <!--Blog-->
-  <!-- <section id="blog" class="container section">
-    <div class="row">
-      <div class="col-md-12">
-        <h2 id="blog_header" class="section__title">Latest Posts_</h2>
-      </div>
-    </div>
 
-    <div class="row post-cards">
-      <div class="col-md-4">
-        <a href="blog.html">
-          <div class="post-cards__card">
-            <div class="post-cards__img">
-              <img src="#" alt="blog_img">
-            </div>
-            <div class="post-cards__info">
-              <p class="post-cards__date">October 22, 2017</p>
-              <h3 class="post-cards_title">title</h3>
-              <p class="post-cards_description">content
-              </p>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-4">
-        <a href="blog.html">
-          <div class="post-cards__card">
-            <div class="post-cards__img">
-              <img src="#" alt="blog_img">
-            </div>
-            <div class="post-cards__info">
-              <p class="post-cards__date">October 22, 2017</p>
-              <h3 class="post-cards_title">title</h3>
-              <p class="post-cards_description">content
-              </p>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-4">
-        <a href="blog.html">
-          <div class="post-cards__card">
-            <div class="post-cards__img">
-              <img src="#" alt="blog_img">
-            </div>
-            <div class="post-cards__info">
-              <p class="post-cards__date">October 22, 2017</p>
-              <h3 class="post-cards_title">title</h3>
-              <p class="post-cards_description">content
-              </p>
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
+  <!-- <div class="row">
+
   </section> -->
-  <!--Blog-->
+  <!--Hello-->
 
-  <!--Contact-->
-  <div class="background" style="background-image: url(assets/img/img_bg_main.jpg)">
-    <div id="contact" class="container section">
-      <div class="row">
-        <div class="col-md-12">
-          <p id="contacts_header" class="section__title">Get in touch_</p>
-        </div>
-      </div>
-      <div class="row contacts">
-        <div class="col-md-5 col-lg-4">
-          <div class="contacts__list">
-            <dl class="contact-list">
-              <dt>Phone:</dt>
-              <dd><a href="tel:+8801779911703">+880 1779 911703</a></dd>
-              <dt>Skype:</dt>
-              <dd><a href="skype:i.ishmam">i.ishmam</a></dd>
-              <dt>Email:</dt>
-              <dd><a href="mailto:int.ishmam@gmail.com">int.ishmam@gmail.com</a></dd>
-            </dl>
-          </div>
-          <div class="contacts__social">
-            <ul>
-              <li><a href="https://www.facebook.com/1shmam/">Facebook</a></li>
-              <li><a href="https://www.linkedin.com/in/intishar-ishmam-998486152/">Linkedin</a></li>
-              <li><a href="https://github.com/intishar-ishmam">GitHub</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-7 col-lg-5">
-          <div class="contacts__form">
-            <p class="contacts__form-title">Or just write me a letter here_</p>
-            <form class="js-form">
-              <div class="form-group">
-                <input class="form-field js-field-name" type="text" placeholder="Your name" required>
-                <span class="form-validation"></span>
-                <span class="form-invalid-icon"><i class="mdi mdi-close" aria-hidden="true"></i></span>
-              </div>
-              <div class="form-group">
-                <input class="form-field js-field-email" type="email" placeholder="Your e-mail" required>
-                <span class="form-validation"></span>
-                <span class="form-invalid-icon"><i class="mdi mdi-close" aria-hidden="true"></i></span>
-              </div>
-              <div class="form-group">
-                <textarea class="form-field js-field-message" placeholder="Type the message here" required></textarea>
-                <span class="form-validation"></span>
-                <span class="form-invalid-icon"><i class="mdi mdi-close" aria-hidden="true"></i></span>
-              </div>
-              <button class="site-btn site-btn--form" type="submit" value="Send">Send</button>
-            </form>
-          </div>
-          <div class="footer">
-            <p>© 2021 Intishar Ishmam. All Rights Reserved</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--Contact-->
-
-  <!-- Portfolio Modal -->
-  <!-- <div class="modal fade portfolio-modal" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body col-md-11 col-lg-9 ml-auto mr-auto">
-        <p class="portfolio-modal__title">title</p>
-        <img class="portfolio-modal__img" src="#" alt="modal_img">
-        <p class="portfolio-modal__description">
-          content
-        </p>
-        <div class="portfolio-modal__link">
-          <a href="#">link</a>
-        </div>
-        <div  class="portfolio-modal__stack">
-          <p class="portfolio-modal__stack-title">Using stack:</p>
-          <ul class="tags">
-            <li>html5</li>
-            <li>css3</li>
-            <li>JavaScript</li>
-            <li>bower</li>
-            <li>grunt</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> -->
-  <!-- Portfolio Modal -->
 
   <script src="assets/js/jquery-2.2.4.min.js"></script>
   <script src="assets/js/popper.min.js"></script>
@@ -725,17 +289,17 @@
       }
 
       new Splide('#splide', options).mount()
-      new Splide('#splide2', Object.assign(options, {
-        video: {
-          autoplay: true,
-          mute: true,
-        }
-      })).mount(window.splide.Extensions)
+      // new Splide('#splide2', Object.assign(options, {
+      //   video: {
+      //     autoplay: true,
+      //     mute: true,
+      //   }
+      // })).mount(window.splide.Extensions)
 
 
 
-      new Splide('#splide4', options).mount()
-      new Splide('#splide5', options).mount()
+      // new Splide('#splide4', options).mount()
+      // new Splide('#splide5', options).mount()
 
     })
   </script>
