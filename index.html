@@ -21,40 +21,44 @@
     href="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-video@latest/dist/css/splide-extension-video.min.css">
 
   <style>
-    .splide {
-      width: 300px;
-      height: 250px;
-    }
-
-    .splide_single img {
-      width: 300px;
-      height: 250px;
-      object-fit: contain;
-    }
-
-    .splide_single video {
-      width: 300px;
-      height: 250px;
-      object-fit: contain;
-    }
-
-    .double {
-      width: 300px;
-      height: 250px;
-      display: flex;
-      flex-direction: column;
-      overflow: hidden;
-    }
-
-    .double .splide {
-      height: 50%;
-    }
-
-    .double img {
-      width: 300px;
-      object-fit: contain;
-      height: 125px;
-    }
+    .splide{
+            width: 300px;
+            height: 250px;
+        }
+        .splide__arrow--prev{
+            left: 5px;
+        }
+        .splide__arrow--next{
+            right: 5px;
+        }
+        .splide__arrow{
+            opacity: 0.2;
+        }
+        .splide_single img{
+            width: 300px;
+            height: 250px;
+            object-fit: contain;
+        }
+        .splide_single video{
+            width: 300px;
+            height: 250px;
+            object-fit: contain;
+        }
+        .double{
+            width: 300px;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .double .splide{
+            height: 50%;
+        }
+        .double img{
+            width: 300px;
+            object-fit: contain;
+            height: 125px;
+        }
   </style>
   <style>
     ul.navs {
@@ -174,7 +178,7 @@
   <div style="margin: 0 auto;">
     <ul class="navs" style="list-style-type: none;">
       <li><a href="index.html">Slider-1</a></li>
-      <li><a href="slide2.html">Slider-2</a></li>
+      <li><a href="slide2.html">Video Slider</a></li>
       <li><a href="slide3.html">Double Slider</a></li>
     </ul>
   </div>
